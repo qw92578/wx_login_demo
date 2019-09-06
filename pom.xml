@@ -28,7 +28,6 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -47,7 +46,7 @@
                 <scope>compile</scope>
             </dependency>
 
-            <!-- 导入模板 -->
+            <!-- 导入thymeleaf模板 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -81,7 +80,6 @@
                 <scope>provided</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement>
 
 
     <build>

@@ -1,5 +1,7 @@
 package com.fgq.wxlogin.demo.pojo;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -9,7 +11,7 @@ import java.io.Serializable;
  * @Description:
  * @Date: 2019/9/4 17:18
  */
-
+@Data
 public class WeChatUserInfo implements Serializable {
     String openid;
     String nickname;
@@ -20,8 +22,5 @@ public class WeChatUserInfo implements Serializable {
     String headimgurl;
     String privilege;
     String unionid;
-
-
-
 
 }
