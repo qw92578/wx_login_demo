@@ -6,8 +6,8 @@
     <groupId>com.fgq</groupId>
     <artifactId>wxlogin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>Demo project for Spring Boot</description>
+    <name>wxlogin</name>
+    <description>Demo project for wxlogin</description>
 
     <properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
